@@ -2,9 +2,9 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #BA9790;
+    background-color: #ffffff;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.432);
-    color: #CEF7A0;
+    color: #fc4e4e;
 }
 
 #container{
@@ -12,14 +12,15 @@ body{
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    background-color: #914d76;
+    background-color: #351f72;
     width: 800px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(243, 63, 63);
 }
 h1{
     padding: 40px;
-    color: #CEF7A0;
+    color: #fc5252;
 }
 
 button{
@@ -27,16 +28,16 @@ button{
     padding: 10px 15px;
     border-radius: 10px;
     border: none;
-    background-color: #75d805;
+    background-color: #fa1c1c;
     color: white;
     font-weight: bold;
     cursor: pointer;
     &:hover{
         transition: 0.2s;
-        background-color: #68ac1a;
+        background-color: #7e1414;
     }
     &:active{
-        background-color: #c1ff79;
+        background-color: #ff8282;
     }
 }
 
@@ -45,4 +46,13 @@ input{
     width: 150px;
     text-align: center;
     font-weight: bold;
+}
+
+#diceResult{
+    margin: 25px;
+}
+
+#diceImages img{
+    width: 120px;
+    margin: 5px;
 }
