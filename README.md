@@ -15,5 +15,4 @@ Um projeto simples em HTML, CSS e JavaScript que simula a rolagem de dados. O us
 - CSS
 - JavaScript
 
-## 📂 Estrutura básica dos arquivos
 
